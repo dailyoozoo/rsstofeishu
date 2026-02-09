@@ -1,0 +1,31 @@
+{
+  "name": "rss-feishu-notifier",
+  "version": "1.0.0",
+  "description": "RSS feed monitor with Feishu bot notifications",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --test",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "rss",
+    "feishu",
+    "notification",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
