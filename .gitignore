@@ -6,3 +6,4 @@ data/
 .wrangler/
 dist/
 .dev.vars
+*.bak
